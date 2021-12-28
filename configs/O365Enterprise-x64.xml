@@ -1,0 +1,25 @@
+<Configuration ID="ff6ff2df-e4c0-4887-a72b-fca84cae561e">
+  <Add OfficeClientEdition="64" Channel="Current">
+    <Product ID="O365ProPlusRetail">
+      <Language ID="en-us" />
+      <ExcludeApp ID="Access" />
+      <ExcludeApp ID="Groove" />
+      <ExcludeApp ID="Lync" />
+      <ExcludeApp ID="Publisher" />
+    </Product>
+  </Add>
+  <Updates Enabled="TRUE" />
+  <RemoveMSI>
+    <IgnoreProduct ID="InfoPath" />
+    <IgnoreProduct ID="InfoPathR" />
+    <IgnoreProduct ID="PrjPro" />
+    <IgnoreProduct ID="PrjStd" />
+    <IgnoreProduct ID="SharePointDesigner" />
+    <IgnoreProduct ID="VisPro" />
+    <IgnoreProduct ID="VisStd" />
+  </RemoveMSI>
+  <AppSettings>
+    <Setup Name="Company" Value="SNS" />
+  </AppSettings>
+  <Display Level="None" AcceptEULA="TRUE" />
+</Configuration>
